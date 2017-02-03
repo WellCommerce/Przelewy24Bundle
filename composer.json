@@ -29,6 +29,11 @@
       "": "src/"
     }
   },
+  "scripts": {
+    "post-install-cmd": [
+      "WellCommerce\\Bundle\\Przelewy24Bundle\\Composer\\ScriptHandler::registerBundle"
+    ]
+  },
   "require": {
     "php": "^7.0",
     "wellcommerce/core-bundle": "^0.7@dev",
