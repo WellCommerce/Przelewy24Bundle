@@ -15,10 +15,10 @@ namespace WellCommerce\Bundle\Przelewy24Bundle\DependencyInjection;
 use WellCommerce\Bundle\CoreBundle\DependencyInjection\AbstractExtension;
 
 /**
- * Class WellCommercePaymentExtension
+ * Class WellCommercePrzelewy24Extension
  *
  * @author  Adam Piotrowski <adam@wellcommerce.org>
  */
-class WellCommercePaymentExtension extends AbstractExtension
+class WellCommercePrzelewy24Extension extends AbstractExtension
 {
 }
