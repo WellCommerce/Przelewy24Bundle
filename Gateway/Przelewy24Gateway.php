@@ -17,7 +17,7 @@ use WellCommerce\Bundle\CoreBundle\Helper\Request\RequestHelperInterface;
 use WellCommerce\Bundle\CoreBundle\Helper\Router\RouterHelperInterface;
 use WellCommerce\Bundle\CurrencyBundle\Helper\CurrencyHelperInterface;
 use WellCommerce\Bundle\OrderBundle\Entity\Order;
-use WellCommerce\Bundle\PaymentBundle\Client\Przelewy24;
+use WellCommerce\Bundle\Przelewy24Bundle\Client\Przelewy24;
 use WellCommerce\Bundle\PaymentBundle\Entity\Payment;
 
 /**
