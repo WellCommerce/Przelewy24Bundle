@@ -36,8 +36,8 @@
   },
   "require": {
     "php": "^7.0",
-    "wellcommerce/core-bundle": "^0.7@dev",
-    "wellcommerce/payment-bundle": "^0.7@dev"
+    "wellcommerce/core-bundle": "0.7.x-dev",
+    "wellcommerce/payment-bundle": "0.7.x-dev"
   },
   "extra": {
     "branch-alias": {
