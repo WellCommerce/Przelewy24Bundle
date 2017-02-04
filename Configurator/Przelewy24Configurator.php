@@ -12,8 +12,8 @@
 
 namespace WellCommerce\Bundle\Przelewy24Bundle\Configurator;
 
-use WellCommerce\Bundle\PaymentBundle\Configurator\AbstractPaymentMethodConfigurator;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use WellCommerce\Bundle\PaymentBundle\Configurator\AbstractPaymentMethodConfigurator;
 use WellCommerce\Component\Form\Dependencies\DependencyInterface;
 use WellCommerce\Component\Form\Elements\ElementInterface;
 use WellCommerce\Component\Form\FormBuilderInterface;
@@ -48,7 +48,7 @@ final class Przelewy24Configurator extends AbstractPaymentMethodConfigurator
             'label'        => $this->trans('pos_id'),
             'dependencies' => [$dependency],
         ]));
-    
+        
         $fieldset->addChild($builder->getElement('text_field', [
             'name'         => $this->getConfigurationKey('crc'),
             'label'        => $this->trans('crc'),
