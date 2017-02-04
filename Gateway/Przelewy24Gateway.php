@@ -19,6 +19,7 @@ use WellCommerce\Bundle\CurrencyBundle\Helper\CurrencyHelperInterface;
 use WellCommerce\Bundle\OrderBundle\Entity\Order;
 use WellCommerce\Bundle\Przelewy24Bundle\Client\Przelewy24;
 use WellCommerce\Bundle\PaymentBundle\Entity\Payment;
+use WellCommerce\Bundle\PaymentBundle\Gateway\PaymentGatewayInterface;
 
 /**
  * Class Przelewy24Gateway

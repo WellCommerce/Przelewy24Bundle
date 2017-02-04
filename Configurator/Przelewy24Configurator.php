@@ -12,6 +12,7 @@
 
 namespace WellCommerce\Bundle\Przelewy24Bundle\Configurator;
 
+use WellCommerce\Bundle\PaymentBundle\Configurator\AbstractPaymentMethodConfigurator;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use WellCommerce\Component\Form\Dependencies\DependencyInterface;
 use WellCommerce\Component\Form\Elements\ElementInterface;

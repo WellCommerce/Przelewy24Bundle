@@ -30,7 +30,8 @@
     }
   },
   "require": {
-    "php": "^7.0"
+    "php": "^7.0",
+    "wellcommerce/wellcommerce": "^0.7@dev"
   },
   "extra": {
     "branch-alias": {
